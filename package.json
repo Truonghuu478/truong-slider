@@ -1,0 +1,38 @@
+{
+  "name": "truong-slider",
+  "version": "1.0.0",
+  "description": "truong-slider",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Truonghuu478/truong-slider.git"
+  },
+  "keywords": [
+    "slider truong-slider react-slider"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "4.8.3",
+    "@types/react-dom": "17.0.13"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.3.0",
+    "@testing-library/user-event": "13.5.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "5.0.1",
+    "classnames": "^2.3.1",
+    "web-vitals": "^2.1.4",
+    "truong-slider": "^1.0.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
