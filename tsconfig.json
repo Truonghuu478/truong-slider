@@ -10,8 +10,10 @@
       "@/components/*": ["components/*"],
       "@/hooks/*": ["hooks/*"]
     },
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.jsx"],
-  "exclude": ["node_modules", "test"]
+  "exclude": ["node_modules", "test","lib/**/*"]
 }
