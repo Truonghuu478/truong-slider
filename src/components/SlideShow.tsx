@@ -81,7 +81,7 @@ type Props = {
   [K in Keys]: any;
 };
 
-const SlideShow: React.FC = (props: Props) => {
+const SlideShow: React.FC<Props> = (props) => {
   const data: React.ReactNode = props.children;
   const [newSettings, setNewSettings] = useState(new SettingDefault(props));
   const [idActiveSlide, setIdActiveSlide]: any = useState(defaultIdSlide);

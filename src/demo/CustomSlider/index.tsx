@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "truong-slider";
 import { StyleBlockItem, StyleContainer } from "./style";
 
+const SliderDemo = Slider as any;
 const CustomSlider: React.FC = () => {
   const settings = {
     dots: true,
@@ -15,11 +16,11 @@ const CustomSlider: React.FC = () => {
 
   return (
     <StyleContainer>
-      <Slider {...settings}>
+      <SliderDemo {...settings}>
         {Array.from([1, 2, 3, 4, 5, 6, 7, 8, 9], (x) => (
           <StyleBlockItem key={x}>{x}</StyleBlockItem>
         ))}
-      </Slider>
+      </SliderDemo>
     </StyleContainer>
   );
 };
