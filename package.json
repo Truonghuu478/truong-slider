@@ -5,11 +5,12 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "start": "webpack-dev-server --config webpack/config.babel.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Truonghuu478/truong-slider.git"
+    "url": "https://github.com/Truonghuu478/truong-slider.git",
   },
   "keywords": [
     "slider truong-slider react-slider"
