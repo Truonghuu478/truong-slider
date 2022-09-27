@@ -1,4 +1,4 @@
-# Hướng dẫn dùng slider 
+# Give me a star on github, thank you !
 
 ## [Example](#ex)
   + ### [Single Item](#signle_item)
@@ -18,7 +18,7 @@
 
 ```js 
 
-import {Slider} from "componnet";
+import Slider from "truong-slider";
 
 const settings = {
       dots: true,
@@ -57,7 +57,7 @@ const settings = {
 + ###  <span id="mul_item"> Multiple items </span>
 
 ```js
-import {Slider} from "componnet";
+import Slider from "truong-slider";
 
 const settings = {
       dots: true,
@@ -95,7 +95,7 @@ const settings = {
 + ###  <span id="responsive"> Responsive </span>
 
 ```js
-import {Slider} from "component";
+import Slider from "truong-slider";
 
     var settings = {
       dots: true,
@@ -154,7 +154,8 @@ import {Slider} from "component";
 + ###  <span id="cus_paging"> Custom Paging </span>
 
 ```js  
-import {Slider} from "component";
+import Slider from "truong-slider";
+
  const settings = {
       customPaging: function(i) {
         return (
@@ -193,7 +194,7 @@ import {Slider} from "component";
 + ###  <span id="auto_play"> Auto play </span>
 
 ```js
-import {Slider} from "component";
+import Slider from "truong-slider";
 
  const settings = {
       dots: true,
@@ -236,7 +237,7 @@ import {Slider} from "component";
 
 ```js
 
-import {Slider} from "component";
+import Slider from "truong-slider";
 
  const settings = {
       dots: true,
@@ -294,7 +295,7 @@ import {Slider} from "component";
 + ###  <span id="dis_arrow">Disable Arrows </span>
 ```js
 
-import {Slider} from "component";
+import Slider from "truong-slider";
 
  const settings = {
       dots: true,
@@ -332,7 +333,7 @@ import {Slider} from "component";
   
 ```js
 
-import {Slider} from "component";
+import Slider from "truong-slider";
 
  const settings = {
       dots: true,
